@@ -10,6 +10,15 @@ html {
   box-sizing: border-box;
 }
 
+.header-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 1rem; */
+}
+
 .main-content {
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
