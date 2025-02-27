@@ -68,6 +68,7 @@ header .logo {
 
 header nav ul {
   display: flex;
+  font-family: "Roboto-Regular", sans-serif;
 }
 
 nav li {
@@ -309,8 +310,10 @@ header .tablet {
 .feature h2 {
   padding-bottom: .5rem;
   font-size: 2.25rem;
-  font-weight: bold;
+  line-height: 1.2;
   color: #4a4a4a;
+  font-family: "Roboto-Bold", sans-serif;
+  padding-top: 2.5rem;
 }
 
 .feature h3 {
@@ -318,6 +321,7 @@ header .tablet {
   line-height: 1.2;
   font-weight: 300;
   color: #4a4a4a;
+  font-family: "Roboto-Light";
 }
 
 /* Tablet Features section */
@@ -364,13 +368,14 @@ header .tablet {
 
 #filters-section .content {
   padding: 0 .625rem;
-  margin-bottom: 5rem;
+  margin-bottom: 1.4rem;
 }
 
 #filters-section .content h2 {
   font-size: 2.25rem;
   font-weight: bold;
   color: white;
+  font-family: "Roboto-Bold", sans-serif;
 }
 
 #filters-section .content h3 {
@@ -378,6 +383,8 @@ header .tablet {
   line-height: 1.4;
   font-weight: 300;
   color: white;
+  font-family: "Roboto-Light", sans-serif;
+  padding-top: 0.8rem;
 }
 
 #filters-section .images-container {
@@ -456,20 +463,24 @@ header .tablet {
   #filters-section .extra {
     display: none;
   } 
-
+}
 /* Quotes Section */
 
 #quotes-section {
   background-color: #f3f3f3;
+  height: 11.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #quotes-section content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
-  font-family: "Palatino", serif;
+  font-family: "Palatino-Italic", serif;
   font-size: 1.875rem;
   line-height: 1.1;
   font-style: italic;
@@ -502,6 +513,7 @@ header .tablet {
 footer {
   background-color: #9b9b9b;
   padding: 1.5rem 2rem;
+  height: 62px;
 }
 
 footer .content {
