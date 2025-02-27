@@ -358,6 +358,18 @@ header .tablet {
     margin: 0;
     padding: 1.25rem 1rem 0 1rem;
   }
+
+  h3 {
+    padding-bottom: 1em;
+  }
+
+  #features-section .feature {
+    border: .5em solid #bababa;
+  }
+ /*  .polaroid1 {
+    border: .5em solid #bababa;
+    background-color: #bababa;
+  } */
 }
 
 /* Filters Section */
@@ -521,6 +533,20 @@ header .tablet {
   }
 }
 
+/* Mobile Quotes Section */
+@media only screen and (max-width: 749px) {
+  #quotes-section {
+    height: auto;
+  }
+
+  #quotes-section .center{
+    flex-direction: column;
+  }
+
+  #quotes-section .quote-citation {
+    padding-top: 1rem;
+  }
+}
 /* Footer */
 
 footer {
